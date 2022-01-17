@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        base-image: [debian, alpine]
+        base-image: [alpine]
     env:
       REPO: jgraph/drawio
       BASE_IMAGE: ${{ matrix.base-image }}
